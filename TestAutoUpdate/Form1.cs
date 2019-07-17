@@ -21,7 +21,7 @@ namespace TestAutoUpdate
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
-			label1.Text = "This is version " + this.ProductVersion;
+			label1.Text = "This is version " + this.ProductVersion + " updated from git";
 		}
 	}
 }
